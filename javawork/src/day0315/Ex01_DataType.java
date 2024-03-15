@@ -1,6 +1,6 @@
 package day0315;
 
-public class Ex1_DataType {
+public class Ex01_DataType {
     public static void main(String[] args) {
         // 자바에서의 데이타 타입에 대하여 알아보자
         /*

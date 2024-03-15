@@ -1,10 +1,8 @@
 package day0315;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
 
-public class Ex9_Munje {
+public class Ex09_Munje {
     public static void main(String[] args) {
         /**
          * 백만단위의 금액을 입력받은 후
