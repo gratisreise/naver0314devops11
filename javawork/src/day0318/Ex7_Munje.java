@@ -14,6 +14,9 @@ public class Ex7_Munje {
          * 가족수
          * 실수령액
          */
+
+
+
     }
 
 }
