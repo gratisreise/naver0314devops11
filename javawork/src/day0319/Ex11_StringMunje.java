@@ -41,6 +41,10 @@ public class Ex11_StringMunje {
         System.out.println("대문자 : "+upperAlpha);
         System.out.println("숫 자 : "+num);
 
+
+        String s = "0123";
+
+
     }
 
 }
