@@ -1,35 +1,27 @@
-class Solution {
-    static int[] calcNum = new int[3];;
-    static int calc(String s, int n){
-        int ans = 0;
-        if(s.lenghth() == 2){
-
-        } else if(s.length() == 3){
-
-        }
-    }
-    public int solution(String dartResult) {
-        int ret = 0;
-
-        String temp = "";
-        int j = 0;
-        for(int i = 0; i < dartResult.length(); i++){
-            char c1 = dartResult.charAt(i)
-            temp += c1;
-            if(i + 1 == dartResult.length() - 1){
-                calcNum[j] = calc(temp);
-            } else {
-                char c2 = dartResult.charAt(i + 1);
-                if( || ('0' <= c2 && c2 <= '9')){
-                    calcNum[j] = calc(temp);
-                    temp = "";
-                }
-            }
-
-        }
-
-
-
-        return ret;
-    }
-}
+//class Solution {
+//
+//    public int[] solution(String[] keymap, String[] targets) {
+//        int row = keymap.length;
+//        int col = 0;
+//        for(String s : keymap) if(s.length() > col) col = s.length();
+//        char[][] c = new char[row][col];
+//        for(int i = 0; i < row; i++){
+//            for(int j = 0; j < col; j++){
+//                if(j > keymap[i].length() - 1) continue;
+//                c[i][j] = keymap[i].charAt(j);
+//            }
+//        }
+//        for(String s : targets){
+//            for(char c : s.toCharArray()){
+//                for(int i = 0; i < col; i++){
+//                    for(int j = 0; j < row; j++){
+//                        if(c[j][i] == )
+//                    }
+//                }
+//            }
+//        }
+//
+//
+//
+//    }
+//}
