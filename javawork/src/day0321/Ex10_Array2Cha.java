@@ -25,8 +25,6 @@ public class Ex10_Array2Cha {
             }
             System.out.println();
         }
-
-
     }
 
 }
