@@ -1,7 +1,9 @@
 import java.io.*;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.StringTokenizer;
 
-public class Main {
+public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -13,7 +15,8 @@ public class Main {
         // ...
 
         bw.write(String.valueOf(m));
-
+        Map<String, int[]> mp = new HashMap<>();
+        mp.put("ss", new int[]{0, 0});
 
         br.close();
         bw.flush();
