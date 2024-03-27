@@ -1,23 +1,22 @@
-import java.util.*;
+import java.io.*;
+import java.util.StringTokenizer;
 
-public class Main{
-    public static void main(String[] args){
-        Stack<Integer> stk = new Stack<>();
-        String s = "";
-        int n = 1000;
-        int b = 16;
-        while(n > 1){
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-            stk.push(n % b);
-            n /= b;
+        int n = Integer.parseInt(st.nextToken());
+        int m = Integer.parseInt(st.nextToken());
+        // 나머지 입력 처리
+        // ...
 
-        }
-        if(n == 1) stk.push(1);
-        while(!stk.isEmpty()) {
-            if(stk.peek() >= 10){
-                s += ("" + (char)(stk.pop() + 55));
-            } else s += ("" + stk.pop());
-        }
-        System.out.println(s);
+        bw.write(String.valueOf(m));
+
+
+        br.close();
+        bw.flush();
+        bw.close();
     }
 }
